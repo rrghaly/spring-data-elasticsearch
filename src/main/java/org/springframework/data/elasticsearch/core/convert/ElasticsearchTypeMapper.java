@@ -31,7 +31,7 @@ import org.springframework.lang.Nullable;
  */
 public interface ElasticsearchTypeMapper extends TypeMapper<Map<String, Object>> {
 
-	String DEFAULT_TYPE_KEY = "_class";
+	String DEFAULT_TYPE_KEY = "deserializationType";
 
 	/**
 	 * Returns whether the given key is the type key.
